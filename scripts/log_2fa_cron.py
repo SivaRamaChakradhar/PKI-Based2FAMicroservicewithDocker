@@ -1,6 +1,7 @@
 from datetime import datetime
 from scripts.totp_utils import generate_totp_code
 
+
 SEED_FILE = "/data/seed.txt"
 LOG_FILE = "/cron/last_code.txt"
 

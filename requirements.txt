@@ -3,3 +3,4 @@ uvicorn
 pyotp
 cryptography
 pydantic
+pycryptodome
