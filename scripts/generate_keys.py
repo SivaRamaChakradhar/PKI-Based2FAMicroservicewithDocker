@@ -29,6 +29,6 @@ public_pem = public_key.public_bytes(
 with open("student_public.pem", "wb") as f:
     f.write(public_pem)
 
-print("✅ RSA 4096-bit student key pair generated:")
+print("RSA 4096-bit student key pair generated:")
 print("- student_private.pem")
 print("- student_public.pem")
