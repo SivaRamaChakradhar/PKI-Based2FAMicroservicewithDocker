@@ -32,8 +32,8 @@ try:
         ),
         hashes.SHA256()
     )
-    print("\n✅ Signature is VALID!")
+    print("\nSignature is VALID!")
     print("Commit proof verification successful.")
 except Exception as e:
-    print("\n❌ Signature verification FAILED!")
+    print("\nSignature verification FAILED!")
     print(str(e))
