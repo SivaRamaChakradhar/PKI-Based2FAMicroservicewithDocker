@@ -47,6 +47,6 @@ try:
     with open(OUTPUT_SEED_FILE, "w") as f:
         f.write(decrypted_seed)
 
-    print(f"✅ Seed decrypted and saved to {OUTPUT_SEED_FILE}")
+    print(f"Seed decrypted and saved to {OUTPUT_SEED_FILE}")
 except Exception as e:
-    print("❌ Decryption failed:", str(e))
+    print("Decryption failed:", str(e))
